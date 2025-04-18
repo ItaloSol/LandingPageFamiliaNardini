@@ -46,7 +46,7 @@ const familyLawItems = [
   },
   {
     title: "Guarda e Pensão Alimentícia",
-    description: "Proteção dos direitos de pais e filhos em questões familiares.",
+    description: "Proteção aos direitos e interesses dos filhos em questões familiares",
     icon: <Users className="h-5 w-5 text-secondary" />,
     details: [
       "Definição de guarda compartilhada ou unilateral",

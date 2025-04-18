@@ -7,23 +7,23 @@ import { Navbar } from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nardiniadvogados.web.app/'),
+  metadataBase: new URL('https://sucessoesnardini.web.app/'),
   title: {
-    default: "Nardini Advogados | Especialista em Direito do Consumidor em São José do Rio Preto",
+    default: "Nardini Advogados | Assessoria Jurídica Humanizada em Questões Familiares e Sucessórias",
     template: "%s | Nardini Advogados"
   },
-  description: "Há mais de 10 anos defendendo os direitos dos consumidores em São José do Rio Preto. Especialistas em problemas com produtos, serviços e cobranças indevidas. Agende uma consulta!",
+  description: "Assessoria jurídica humanizada para questões familiares e sucessórias, garantindo seus direitos com sensibilidade e eficiência.",
   keywords: [
-    "advogado direito do consumidor",
-    "problemas com produtos",
-    "cobranças indevidas", 
-    "práticas abusivas",
-    "defesa do consumidor",
+    "assessoria jurídica familiar",
+    "questões sucessórias",
+    "direitos familiares",
+    "sensibilidade jurídica",
+    "eficiência jurídica",
     "Nardini Advogados",
-    "advogado Rio Preto",
-    "PROCON",
-    "reclamação consumidor",
-    "direitos do consumidor"
+    "advogado familiar",
+    "direito sucessório",
+    "consultoria jurídica",
+    "direitos humanos"
   ],
   authors: [{ name: "Nardini Advogados" }],
   creator: "Nardini Advogados",
@@ -36,23 +36,23 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://nardiniadvogados.web.app/",
+    url: "https://sucessoesnardini.web.app/",
     siteName: "Nardini Advogados",
-    title: "Nardini Advogados | Especialista em Direito do Consumidor",
-    description: "Especialistas em defender seus direitos nas relações de consumo. Problemas com produtos, serviços, cobranças indevidas e práticas abusivas.",
+    title: "Nardini Advogados | Assessoria Jurídica Humanizada",
+    description: "Assessoria jurídica humanizada para questões familiares e sucessórias, garantindo seus direitos com sensibilidade e eficiência.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Nardini Advogados - Escritório Especializado em Direito do Consumidor em São José do Rio Preto"
+        alt: "Nardini Advogados - Assessoria Jurídica Humanizada em Questões Familiares e Sucessórias"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nardini Advogados | Advocacia Especializada em Direito do Consumidor",
-    description: "Soluções jurídicas especializadas em São José do Rio Preto. Defesa dos direitos do consumidor.",
+    title: "Nardini Advogados | Assessoria Jurídica Humanizada",
+    description: "Assessoria jurídica humanizada para questões familiares e sucessórias, garantindo seus direitos com sensibilidade e eficiência.",
     images: ["/og-image.png"],
   },
   robots: {
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     google: "your-google-verification-code",
   },
   alternates: {
-    canonical: "https://nardiniadvogados.web.app/",
+    canonical: "https://sucessoesnardini.web.app/",
   },
   icons: {
     icon: "/logo.ico",
@@ -85,7 +85,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth">
       <head>
-        <link rel="canonical" href="https://nardiniadvogados.web.app/" />
+        <link rel="canonical" href="https://sucessoesnardini.web.app/" />
         <meta name="geo.region" content="BR-SP" />
         <meta name="geo.placename" content="São José do Rio Preto" />
         <meta name="geo.position" content="-20.8167252;-49.4015975" />

@@ -9,7 +9,7 @@ const familyProblems = [
   {
     title: "Divórcio e Separações",
     items: [
-      "Processos de divórcio complexos e litigiosos",
+      "Processos de divorcio consensual e litigioso",
       "Divisão de bens e patrimônio",
       "Guarda dos filhos",
       "Pensão alimentícia",
